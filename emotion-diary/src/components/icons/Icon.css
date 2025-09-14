@@ -1,0 +1,35 @@
+svg {
+    display: block;
+    width: 100%;   /* 부모 너비를 따름 */
+    height: auto;  /* viewBox 비율 유지 */
+}
+
+.size-48 {
+    width: 48px;
+    height: 48px;
+}
+
+.size-128 {
+    width: 128px;
+    height: 128px;
+}
+
+.color-yellow {
+    color: #F7D046;
+}
+
+.color-red {
+    color: #D13F32;
+}
+
+.color-blue {
+    color: #6AA4FF;
+}
+
+.color-green {
+    color: #59C36A;
+}
+
+.color-purple {
+    color: #9B59B6;
+}

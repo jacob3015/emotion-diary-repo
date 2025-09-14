@@ -1,0 +1,54 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+    border: solid 1px #808080;
+    background-color: #E1E1E1;
+    color: #000000;
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease; /* hover 전환 애니메이션 */
+}
+
+.button:hover {
+    background-color: #d5d5d5; /* hover 시 약간 더 어두운 회색 */
+    border-color: #666666;
+}
+
+.button:disabled {
+    background-color: #f0f0f0;
+    border-color: #cccccc;
+    color: #999999;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.button.with-icon {
+    gap: 8px;
+}
+
+.button.with-icon.wide {
+    width: 60%;
+}
+
+.button.go-to-top {
+    position: fixed;       /* relative to viewport */
+    bottom: 20px;          /* 20px above bottom edge */
+    right: 20px;           /* 20px from right edge */
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;         /* stay above other content */
+    background: transparent; /* 배경 없음 */
+    transition: background-color 0.2s ease; /* optional transition/hover */
+}
+.button.go-to-top:hover {
+    background-color: rgba(0, 0, 0, 0.08); /* hover 시 은은한 배경 */
+}

@@ -1,0 +1,116 @@
+.daily-emotion {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    padding: 54px 24px;
+    margin: 0;
+}
+
+.daily-emotion > .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.daily-emotion > .title.selectable {
+    justify-content: flex-start;
+}
+
+.daily-emotion > .emotion-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 180px 320px;
+    border-radius: 8px;
+    background-color: #F7D046;
+}
+
+.daily-emotion > .emotion-image.joy {
+    background-color: #F7D046;
+}
+
+.daily-emotion > .emotion-image.anger {
+    background-color: #D13F32;
+}
+
+.daily-emotion > .emotion-image.sadness {
+    background-color: #6AA4FF;
+}
+
+.daily-emotion > .emotion-image.disgust {
+    background-color: #59C36A;
+}
+
+.daily-emotion > .emotion-image.anxiety {
+    background-color: #9B59B6;
+}
+
+.daily-emotion > .emotion-image-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 0 24px;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+    padding: 16px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.25s ease, transform 0.2s ease;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.joy {
+    background-color: #F7D046;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.joy.selected {
+    box-shadow: inset 0 0 16px 4px #D99D00;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.sadness {
+    background-color: #6AA4FF;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.sadness.selected {
+    box-shadow: inset 0 0 16px 4px #2A5EB3;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.disgust {
+    background-color: #59C36A;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.disgust.selected {
+    box-shadow: inset 0 0 16px 4px #226634;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.anxiety {
+    background-color: #9B59B6;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.anxiety.selected {
+    box-shadow: inset 0 0 16px 4px #52246C ;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.anger {
+    background-color: #D13F32;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable.anger.selected {
+    box-shadow: inset 0 0 16px 4px #801414;
+}
+
+.daily-emotion > .emotion-image-group > .emotion-image.selectable > .title {
+    font-size: 24px;
+    font-weight: 700;
+}

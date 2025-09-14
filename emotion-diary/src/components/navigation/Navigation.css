@@ -1,0 +1,27 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: #F0F0F0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navigation > .title-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 4px;
+}
+
+.navigation > .title-contents > .title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1;
+    padding-top: 8px;
+}

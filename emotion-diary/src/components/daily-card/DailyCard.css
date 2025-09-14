@@ -1,0 +1,55 @@
+.daily-card {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.daily-card > .card-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 160px;
+    border-radius: 8px;
+}
+
+.daily-card > .card-image.joy {
+    background-color: #F7D046;
+}
+
+.daily-card > .card-image.anger {
+    background-color: #D13F32;
+}
+
+.daily-card > .card-image.sadness {
+    background-color: #6AA4FF;
+}
+
+.daily-card > .card-image.disgust {
+    background-color: #59C36A;
+}
+
+.daily-card > .card-image.anxiety {
+    background-color: #9B59B6;
+}
+
+.daily-card > .card-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.daily-card > .card-contents > .title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.daily-card > .card-contents > .content {
+    font-size: 24px;
+    font-weight: 400;
+}

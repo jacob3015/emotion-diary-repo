@@ -1,0 +1,28 @@
+import Icon from "../Icon.jsx";
+
+/**
+ * Arrow up
+ *
+ * <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+ * <path d="M24 38V10M24 10L10 24M24 10L38 24" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+ * </svg>
+ *
+ * @param title
+ * @param className
+ * @param isDecoration
+ * @returns {JSX.Element}
+ * @constructor
+ */
+const ArrowUp = ({
+                     title = "arrow up",
+                     className = "icon arrow-up",
+                     isDecoration = false,
+                 }) => {
+    return (
+        <Icon title={title} className={className} isDecoration={isDecoration}>
+            <path d="M24 38V10M24 10L10 24M24 10L38 24" stroke="#1E1E1E" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
+        </Icon>
+    );
+}
+
+export default ArrowUp;

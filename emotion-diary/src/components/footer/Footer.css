@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer > .copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer > .copyright > .icon {
+    width: 16px;
+    height: 16px;
+}
+
+.footer > .copyright > .title {
+    padding-top: 4px;
+}
+
+.footer > .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer > .contact > li {
+    padding-top: 4px;
+}
+
+.footer > .contact > li:not(:first-child) {
+    visibility: hidden;
+}

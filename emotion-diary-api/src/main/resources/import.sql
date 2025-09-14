@@ -1,0 +1,5 @@
+INSERT INTO daily (id, emotion, content, created_at) VALUES (next value for daily_seq, 'joy', 'Had a wonderful evening walk at the park, feeling light and peaceful.', '2025-07-10 18:30:00');
+INSERT INTO daily (id, emotion, content, created_at) VALUES (next value for daily_seq, 'sadness', 'Missed an important call today, feeling a bit down but hopeful for tomorrow.', '2025-08-10 18:40:00');
+INSERT INTO daily (id, emotion, content, created_at) VALUES (next value for daily_seq, 'anger', 'Got stuck in heavy traffic for hours, very frustrating experience overall.', '2025-08-12 18:30:00');
+INSERT INTO daily (id, emotion, content, created_at) VALUES (next value for daily_seq, 'anxiety', 'Upcoming project deadline is close, feeling nervous and restless about the results.', '2025-09-12 18:30:00');
+INSERT INTO daily (id, emotion, content, created_at) VALUES (next value for daily_seq, 'disgust', 'Saw some unpleasant posts online today, it really ruined my mood for a while.', '2025-09-13 18:30:00');

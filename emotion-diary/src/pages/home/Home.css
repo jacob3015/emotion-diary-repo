@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.home > .top-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 24px;
+}
+
+.home > .daily-card-group {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 54px 24px;
+}

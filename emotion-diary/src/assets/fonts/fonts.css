@@ -1,0 +1,10 @@
+/**
+ * Styles for fonts
+ */
+
+@font-face {
+    font-family: "Pretendard";
+    src: url("./PretendardVariable.woff2") format("woff2-variations");
+    font-weight: 100 900; /* 가변 폰트 지원 범위 */
+    font-style: normal;
+}
